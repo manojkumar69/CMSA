@@ -1,0 +1,40 @@
+# view AndroidManifest.xml #generated:297
+-keep class com.qwerty.logic.AvailablePatternActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+# view AndroidManifest.xml #generated:122
+# view AndroidManifest.xml #generated:96
+-keep class com.qwerty.logic.Email { <init>(...); }
+
+# view AndroidManifest.xml #generated:304
+-keep class com.qwerty.logic.FirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+# view AndroidManifest.xml #generated:148
+# view AndroidManifest.xml #generated:161
+# view AndroidManifest.xml #generated:213
+# view AndroidManifest.xml #generated:226
+# view AndroidManifest.xml #generated:239
+-keep class com.qwerty.logic.GPSLocation { <init>(...); }
+
+# view AndroidManifest.xml #generated:291
+-keep class com.qwerty.logic.MICROAPPActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+# view AndroidManifest.xml #generated:70
+# view AndroidManifest.xml #generated:83
+-keep class com.qwerty.logic.PhotoPreview { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+# view AndroidManifest.xml #generated:187
+# view AndroidManifest.xml #generated:200
+# view AndroidManifest.xml #generated:252
+# view AndroidManifest.xml #generated:265
+# view AndroidManifest.xml #generated:278
+-keep class com.qwerty.logic.SMS { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+# view AndroidManifest.xml #generated:31
+# view AndroidManifest.xml #generated:44
+-keep class com.qwerty.logic.TakePhoto { <init>(...); }
+

@@ -1,0 +1,9 @@
+package com.example.mdp;
+
+import android.app.Application;
+
+public class MDP_Application extends Application {
+	public static final String DOMAIN_NAME = "ModelDrivenPattern";
+	public static String IP_ADDRESS;
+	public static String PORT_NO;
+}

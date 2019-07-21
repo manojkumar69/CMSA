@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:scrollbarStyle="insideOverlay"
+		android:layout_marginBottom="45dp"
+		android:scrollbarAlwaysDrawVerticalTrack="false">
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+			android:layout_height="match_parent" tools:context=".MainActivity">
+
+			<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_alignBaseline="@+id/editText1"
+				android:layout_alignBottom="@+id/editText1" android:layout_toLeftOf="@+id/editText1"
+				android:text="Mobile No:" />
+
+			<TextView android:id="@+id/textView2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_alignBaseline="@+id/editText2"
+				android:layout_alignBottom="@+id/editText2"
+				android:layout_alignLeft="@+id/textView1" android:text="Message:" />
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editText1"
+				android:ems="10" android:layout_alignParentTop="true" android:hint="type your no..."
+				android:layout_alignParentRight="true" android:layout_marginRight="20dp"
+				android:layout_marginTop="88dp"></EditText>
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:inputType="textMultiLine"
+				android:hint="type your msg....." android:id="@+id/editText2"
+				android:ems="10" android:layout_below="@+id/editText1"
+				android:layout_alignLeft="@+id/editText1" android:layout_marginTop="59dp">
+				<requestFocus></requestFocus>
+			</EditText>
+
+		</RelativeLayout>
+	</ScrollView>
+	<Button android:text="Send SMS" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/sendsmsbutton"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"></Button>
+	<Button android:text="Next" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/smsnext"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"></Button>
+</RelativeLayout>

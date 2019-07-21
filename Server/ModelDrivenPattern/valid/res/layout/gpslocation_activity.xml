@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent" tools:context=".MyActivity">
+
+	<TextView android:text="Gps Location" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/textView" />
+	<Button android:layout_width="wrap_content" android:id="@+id/btnShowAddress"
+		android:text="GetAddress" android:layout_height="wrap_content"
+		android:layout_below="@+id/button1" android:layout_alignLeft="@+id/button1"
+		android:layout_marginTop="40dp"></Button>
+<!-- 	<Button android:text="ShowLocation" android:id="@+id/btnGPSShowLocation" -->
+<!-- 		android:layout_height="wrap_content" android:layout_width="wrap_content" -->
+<!-- 		android:layout_alignBaseline="@+id/btnShowAddress" -->
+<!-- 		android:layout_alignBottom="@+id/btnShowAddress" -->
+<!-- 		android:layout_toRightOf="@+id/btnShowAddress" -->
+<!-- 		android:layout_marginLeft="40dp"></Button> -->
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="TextView" android:id="@+id/tvAddress"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_below="@+id/btnShowAddress" android:layout_toRightOf="@+id/btnShowAddress"
+		android:layout_marginTop="43dp"></TextView>
+	<Button android:text="Next" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/next"
+		android:layout_alignParentBottom="true"
+		android:paddingLeft="30dp" android:paddingRight="30dp"
+		android:layout_alignParentRight="true"></Button>
+
+</RelativeLayout>

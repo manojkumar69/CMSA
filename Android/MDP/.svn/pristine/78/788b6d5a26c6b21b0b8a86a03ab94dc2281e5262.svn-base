@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"> 
+<GridLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:columnWidth="320dp"
+    android:orientation="vertical"
+    android:rowCount="2"
+    android:stretchMode="columnWidth" >
+
+<!--     <LinearLayout -->
+<!--         android:id="@+id/topleft" -->
+<!--         android:layout_width="160dp" -->
+<!--         android:layout_height="160dp" -->
+<!--         android:layout_row="0" -->
+<!--         android:background="@drawable/shape"  -->
+<!--         > -->
+
+        
+        
+<!--     </LinearLayout> -->
+
+    <TableLayout
+        android:id="@+id/topright"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape" 
+        android:columnCount="2" >
+<TextView
+              android:id="@+id/username1"
+              android:textColor="#ffffff"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"
+              android:text="username"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+        <ImageView
+            android:id="@+id/takevideo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/status"
+            android:layout_alignTop="@+id/videopreview"
+            android:src="@drawable/takevideo" />
+
+        <ImageView
+            android:id="@+id/contact1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/takevideo"
+            android:layout_alignTop="@+id/decrypt"
+            android:src="@drawable/contact" />
+
+        <ImageView
+            android:id="@+id/takephoto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/photopreview"
+            android:src="@drawable/takephoto" />
+
+        <ImageView
+            android:id="@+id/gps1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/photopreview"
+            android:src="@drawable/gps" />
+
+        <ImageView
+            android:id="@+id/sms1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/takephoto"
+            android:src="@drawable/sms" />
+
+        <ImageView
+            android:id="@+id/photopreview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sms"
+            android:src="@drawable/photopreview" />
+
+        <ImageView
+            android:id="@+id/winfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/photopreview"
+            android:src="@drawable/whether" />
+
+        <ImageView
+            android:id="@+id/groupmsg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/winfo"
+            android:src="@drawable/groupmsg" />
+
+        <ImageView
+            android:id="@+id/status1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/groupmsg"
+            android:src="@drawable/status" />
+
+        <ImageView
+            android:id="@+id/encrypt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/status"
+            android:src="@drawable/encrypt" />
+
+        <ImageView
+            android:id="@+id/videopreview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/encrypt"
+            android:src="@drawable/videopreview" />
+
+        <ImageView
+            android:id="@+id/email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/decrypt"
+            android:layout_toRightOf="@+id/takephoto"
+            android:src="@drawable/emil" />
+
+        <ImageView
+            android:id="@+id/decrypt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/takevideo"
+            android:src="@drawable/decrypt" />
+
+        <ImageView
+            android:id="@+id/voice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/contact"
+            android:src="@drawable/voicerecognization" />
+
+    </TableLayout>
+
+<!--     <LinearLayout -->
+<!--         android:id="@+id/bottomleft" -->
+<!--         android:layout_width="160dp" -->
+<!--         android:layout_height="160dp" -->
+<!--         android:background="@drawable/shape" > -->
+
+       
+<!--     </LinearLayout> -->
+
+    <TableLayout
+        android:id="@+id/bottomright"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal|center_vertical"
+        android:layout_row="0"
+        android:background="@drawable/shape" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="23dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableLayout>
+
+</GridLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+# view AndroidManifest.xml #generated:336
+-keep class com.valid.logic.AvailablePatternActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+# view AndroidManifest.xml #generated:122
+# view AndroidManifest.xml #generated:174
+# view AndroidManifest.xml #generated:187
+# view AndroidManifest.xml #generated:200
+# view AndroidManifest.xml #generated:291
+# view AndroidManifest.xml #generated:304
+# view AndroidManifest.xml #generated:317
+# view AndroidManifest.xml #generated:96
+-keep class com.valid.logic.Email { <init>(...); }
+
+# view AndroidManifest.xml #generated:343
+-keep class com.valid.logic.FirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+# view AndroidManifest.xml #generated:148
+# view AndroidManifest.xml #generated:161
+# view AndroidManifest.xml #generated:18
+# view AndroidManifest.xml #generated:31
+# view AndroidManifest.xml #generated:44
+-keep class com.valid.logic.GPSLocation { <init>(...); }
+
+# view AndroidManifest.xml #generated:330
+-keep class com.valid.logic.MICROAPPActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+# view AndroidManifest.xml #generated:265
+# view AndroidManifest.xml #generated:278
+-keep class com.valid.logic.PhoneStatusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+# view AndroidManifest.xml #generated:226
+# view AndroidManifest.xml #generated:239
+-keep class com.valid.logic.VoiceRecognition { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+# view AndroidManifest.xml #generated:70
+# view AndroidManifest.xml #generated:83
+-keep class com.valid.logic.WeatherInfo { <init>(...); }
+

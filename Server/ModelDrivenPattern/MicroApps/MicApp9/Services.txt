@@ -1,0 +1,9 @@
+TakePhoto
+PhotoPreview
+Email
+GPSLocation
+SMS
+GPSLocation
+SMS
+VoiceRecognition
+Email

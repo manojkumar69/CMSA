@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    >
+
+    <item
+        android:id="@+id/cleardata"
+        android:orderInCategory="100"
+        android:title="cleardata"
+
+        />
+    <item
+        android:id="@+id/pattern_changes"
+        android:orderInCategory="100"
+        android:title="changepattern"
+
+        />
+</menu>
+<!--        app:showAsAction="never"-->

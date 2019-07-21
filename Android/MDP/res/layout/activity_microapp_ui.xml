@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="match_parent"    android:layout_height="match_parent"    android:orientation="vertical" >    <ScrollView        android:id="@+id/scrollView"        android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:layout_alignParentBottom="true"        android:layout_alignParentLeft="true"        android:layout_alignParentRight="true"        android:layout_alignParentTop="true"  >        <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alertconf"
+        android:textAppearance="?android:attr/textAppearanceLarge"         android:paddingTop="40dp"        />
+
+    <RadioGroup
+        android:id="@+id/radioalert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"         android:paddingTop="20dp"        android:paddingLeft="80dp"        >
+
+        <RadioButton
+            android:id="@+id/radioalertyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioalertno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pageconf"
+        android:textAppearance="?android:attr/textAppearanceLarge"          android:paddingTop="40dp"        />
+
+    <RadioGroup
+        android:id="@+id/radiopage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"          android:paddingTop="20dp"        android:paddingLeft="80dp"        >
+
+        <RadioButton
+            android:id="@+id/radiopageyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radiopageno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+    </RadioGroup>
+	<TextView        android:id="@+id/textView1"        android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:text="@string/nextactivity"        android:textAppearance="?android:attr/textAppearanceLarge"          android:paddingTop="40dp"        />
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"         android:layout_marginLeft="100dp"		android:paddingLeft="30dp"		android:paddingRight="30dp"/>
+
+</LinearLayout>    </ScrollView>   </RelativeLayout>

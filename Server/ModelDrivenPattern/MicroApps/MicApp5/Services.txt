@@ -1,0 +1,10 @@
+TakePhoto
+PhotoPreview
+Email
+GPSLocation
+SMS
+GPSLocation
+SMS
+TakePhoto
+PhotoPreview
+Email

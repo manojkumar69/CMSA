@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/headerphone" >
+
+    <Button
+        android:id="@+id/default_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="@string/defaultpattern" 
+        android:shadowColor="#abcdef"
+        android:textColorLink="#abcdef"
+        android:textColor="#abcdef"
+        />
+
+     <Button
+         android:id="@+id/allservices"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/default_button"
+         android:layout_alignRight="@+id/default_button"
+         android:layout_below="@+id/change_button"
+         android:layout_marginTop="37dp"
+         android:text="@string/allservices"
+         android:shadowColor="#abcdef"
+         android:textColorLink="#abcdef"
+         android:textColor="#abcdef" />
+
+     <Button
+         android:id="@+id/change_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:layout_alignLeft="@+id/allservices"
+         android:layout_alignRight="@+id/allservices"
+         android:layout_below="@+id/default_button"
+         android:layout_marginTop="50dp"
+         android:text="@string/changepattern" 
+         android:shadowColor="#abcdef"
+         android:textColorLink="#abcdef"
+         android:textColor="#abcdef"/>
+
+</RelativeLayout>

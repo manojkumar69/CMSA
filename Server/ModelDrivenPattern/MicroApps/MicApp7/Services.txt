@@ -1,0 +1,5 @@
+TakePhoto
+PhotoPreview
+Email
+GPSLocation
+SMS

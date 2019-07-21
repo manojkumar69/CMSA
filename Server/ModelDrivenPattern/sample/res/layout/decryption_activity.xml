@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<Button android:id="@+id/decryptbutton" android:text="Decrypt File"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+		android:layout_marginTop="190dp"></Button>
+	<TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="Photo Key" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" android:layout_marginTop="22dp"></TextView>
+	<TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="Video Key" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_below="@+id/textView1"
+		android:layout_alignParentLeft="true" android:layout_marginTop="41dp"></TextView>
+	<EditText android:inputType="textPersonName"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/editTextphotkey" android:layout_alignTop="@+id/textView1"
+		android:layout_alignLeft="@+id/decryptbutton" android:hint="Enter your key"
+		android:layout_marginLeft="26dp" android:layout_alignParentRight="true">
+		<requestFocus></requestFocus>
+	</EditText>
+	<EditText android:inputType="textPersonName"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/editTextvideokey" android:layout_alignTop="@+id/textView2"
+		android:hint="Enter your key" android:layout_alignParentRight="true"
+		android:layout_alignLeft="@+id/editTextphotkey"></EditText>
+	<Button android:text="Self Decrypt" android:id="@+id/decryptwithinbutton"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_below="@+id/decryptbutton"
+		android:layout_centerHorizontal="true" android:layout_marginTop="38dp"></Button>
+	<Button android:text="Next" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/decnextactivity"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"></Button>
+
+</RelativeLayout>

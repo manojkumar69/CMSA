@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MDP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cloud">Built Your Own App On Cloud</string>
+    <string name="enterIp">Enter Ip address</string>
+    <string name="Ip">10.0.0.18:8888</string>
+     
+    <string name="ip_address">IP Address</string>
+    <string name="sign_in">SignIn</string>
+    <string name="available_ser">Available</string>
+    <string name="qr_code">QR_Code_Reader</string>
+    <string name="sms">Sending SMS</string>
+    <string name="select">Select Services</string>
+    <string name="reg">Registration</string>
+    <string name="sms_activity">SMS</string>
+    <string name="navigation">Navigation</string>
+    <string name="building_dialog">Processing Please Wait.....</string>
+    <string name="action_services">View comb</string>
+    <string name="alert_wait">Authenticating.....</string>
+    <string name="system_services">System Services</string>
+    <string name="light_sensor">Light</string>
+    <string name="battery_level">Battery</string>
+    <string name="wifi_signal">Wifi</string>
+    <string name="network_signal">Network</string>
+    <string name="voice_reg">Voice Recognition</string>
+    <string name="device_status">Device Status</string>
+    <string name="multimedia_services">Multimedia Services</string>
+    <string name="take_photo"> Photo</string>
+    <string name="preview_photo">Preview Photo</string>
+    <string name="take_video">Video</string>
+    <string name="preview_video">Preview Video</string>
+    <string name="gallery">Gallery</string>
+    <string name="Social_services">Social Networking Services</string>
+    <string name="twitter">Twitter</string>
+    <string name="contacts">Contacts</string>
+    <string name="cryptography_services">Cryptography Services</string>
+    <string name="encryt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="loc_services">Location/Environment Services</string>
+    <string name="gps">GPS</string>
+    <string name="weather">Weather Info</string>
+    <string name="yellow_pages">Yellow Pages</string>
+    <string name="sms_services">SMS Services</string>
+    <string name="single">Single</string>
+    <string name="group">Group</string>
+    <string name="mail_services">Mail Services</string>
+    <string name="media_mail">Multimedia Mail</string>
+    <string name="ordinary_mail">Ordinary Mail</string>
+    <string name="check">Check Combination</string>
+    <string name="phoneno">Conform Your Mobile no to send OTP </string>
+    <string name="send">Send</string>
+    <string name="build">Build Micro App</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="reader">Open Qr-Reader</string>
+    <string name="alertconf">Alert Conformation </string>
+    <string name="pageconf">Auto Page Navigation</string>
+    <string name="next">Next</string>
+    <string name="nextactivity">Click next to Build App</string>
+    <string name="action_combination">Check-combinations</string>
+    <string name="action_available">Available-combinations</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_scan">Scan QR</string>
+    
+</resources>

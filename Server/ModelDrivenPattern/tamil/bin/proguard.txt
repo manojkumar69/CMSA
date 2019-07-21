@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:57
+-keep class com.tamil.logic.AvailablePatternActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.tamil.logic.Email { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.tamil.logic.FirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.tamil.logic.MICROAPPActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.tamil.logic.PhotoPreview { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.tamil.logic.TakePhoto { <init>(...); }
+

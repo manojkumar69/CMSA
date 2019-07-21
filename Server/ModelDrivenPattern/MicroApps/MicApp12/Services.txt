@@ -1,0 +1,11 @@
+GPSLocation
+WeatherInfo
+Email
+GPSLocation
+Email
+VoiceRecognition
+PhoneStatusActivity
+Email
+VoiceRecognition
+PhoneStatusActivity
+Email

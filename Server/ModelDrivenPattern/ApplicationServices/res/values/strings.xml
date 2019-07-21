@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListViewSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="hello">Hello World, MICROAPPActivity!</string>
+   
+    
+      <string name="title_activity_phone_status">Phone Status</string>
+    <string name="title_activity_phone">Cellphone Data</string>
+	<string name="tvPhoneStatus">Phone Status</string>
+	
+	<string name="tvServiceState">Service State : </string>
+	<string name="tvCellLocation">Cell Location : </string>
+	<string name="tvCallState">Call State : </string>
+	<string name="tvConnState">Connection State : </string>
+	<string name="tvSignalLevel">Signal Level : </string>
+	<string name="strData">Data : </string>
+	<string name="defaultpattern" >Go with default pattern </string>
+	<string name="changepattern">Change pattern </string>
+	<string name="allservices">allservices </string>
+</resources>
